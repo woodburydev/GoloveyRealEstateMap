@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.mapWrapper img {
+  position: absolute;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mapWrapper {
+  width: 1314px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+input {
+  font-family: "Poppins", sans-serif;
+}
+.Auburn,
+.Dorado,
+.EastSac,
+.Elk,
+.Folsom,
+.Map,
+.Lincoln,
+.Loomis,
+.Natomis,
+.Rancho,
+.Rocklin,
+.Roseville,
+.WestSac {
+  position: absolute;
+  z-index: 3;
+  margin: auto;
+  cursor: pointer;
+  padding: 30px;
+  width: 150px;
+}
+div img {
+  transition: all 500ms ease;
+}
+.WestSac {
+  top: 62%;
+  margin-left: 110px;
+}
+
+.Natomis {
+  top: 47.5%;
+  margin-left: 230px;
+}
+
+.EastSac {
+  top: 66%;
+  margin-left: 290px;
+}
+
+.Elk {
+  top: 89%;
+  margin-left: 290px;
+}
+
+.Rancho {
+  top: 61%;
+  margin-left: 540px;
+}
+
+.Roseville {
+  top: 29%;
+  margin-left: 530px;
+}
+
+.Rocklin {
+  top: 19%;
+  margin-left: 610px;
+}
+
+.Loomis {
+  top: 10%;
+  margin-left: 690px;
+}
+
+.Folsom {
+  top: 41.5%;
+  margin-left: 745px;
+}
+
+.Dorado {
+  top: 43%;
+  margin-left: 965px;
+}
+
+.Lincoln {
+  top: -2%;
+  margin-left: 600px;
+}
+
+.Auburn {
+  top: -2%;
+  margin-left: 870px;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: 200;
+  text-align: center;
+  margin: auto;
+  line-height: 1.3;
+}
